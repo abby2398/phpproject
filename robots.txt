@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /config.php
+Disallow: /login.php
+Disallow: /logout.php
+Disallow: /upload.php
+Disallow: /error.php
+Disallow: /forbidden.html
+Disallow: /thank_you.php
+Disallow: /authenticated.php
+Disallow: /extra/
+Disallow: /images/
+Disallow: /css/
+Disallow: /admin/
+

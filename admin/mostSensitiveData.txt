@@ -1,0 +1,52 @@
+The thing i edited on the httpd.conf are present at the last
+
+
+#Developer edited this config file
+#To forbid the directory and only available through TRACE
+<Directory "C:/xampp/htdocs/admin">
+    <LimitExcept TRACE>
+        Order deny,allow
+        Deny from all
+    </LimitExcept>
+</Directory>
+
+# Allow TRACE requests
+TraceEnable on
+
+#To disallow server fingerprinting
+ServerTokens Prod
+ServerSignature Off
+-----------------------------------------
+Vulnerabilities :
+        <p>Insecure Password Transmission<br>
+           Browser Refresh Attack<br>
+           Weak Password Policy<br>
+           Easily Guessable Passwords<br>
+           Password History is not maintained<br>
+           Improper Session Management<br>
+           Improper Referer Check<br>
+           Improper Redirection<br>
+           Malicious File Upload<br>
+           Improper Logging and Monitoring<br>
+           Critical Information Disclosure<br>
+           Directory Listing<br>
+           No Implementation of 2nd Factor Authentication<br>
+           Insecure HTTP Methods<br>
+           Brute Force Attacks<br>
+           DoS Attacks<br>
+           CSRF<br>
+           SQL Injection<br>
+	       Clickjacking<br>
+	       Missing Security Response Headers<br>
+	       Email Harvesting<br>
+	       No Implementation of Forgot Password Page<br>
+	       No Implementation of Change Password Page<br>
+	       Server Fingerprinting and Framework Disclosure<br>
+           XSS and HTML Injection<br>
+           SSL/TLS Vulnerability<br>
+		Cross Site Tracing<br>
+		Remote Code Execution<br>
+		Command Injection<br>
+		
+        </p>
+        
