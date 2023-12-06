@@ -1,7 +1,3 @@
-<!-- This project was created by 
-Mohd Abdullah Khan 
-Find me on Instagram: @abby23_98-->
-
 <!DOCTYPE html>
 <html>
 <head>
